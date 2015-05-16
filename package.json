@@ -1,0 +1,27 @@
+{
+  "name": "rat-mat",
+  "version": "1.0.0",
+  "description": "Exact rational matrix arithmetic",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rat-nest/rat-mat.git"
+  },
+  "keywords": [
+    "rational",
+    "matrix",
+    "arithmetic",
+    "exact",
+    "computational",
+    "geometry"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rat-nest/rat-mat/issues"
+  },
+  "homepage": "https://github.com/rat-nest/rat-mat"
+}
