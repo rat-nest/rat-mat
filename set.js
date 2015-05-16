@@ -1,11 +1,10 @@
 'use strict'
 
-var setc = require('rat-vec/setc')
+var vset = require('rat-vec/set')
+var rset = require('./setr')
 
 module.exports = setComponent
 
 function setComponent(matrix, i, j, value) {
-  var nmatrix = matrix.slice()
-  nmatrix[i] = setc(matrix[i], j, value)
-  return nmatrix
+  return rset(matrix, i, vset(matrix[i], j, value))
 }
