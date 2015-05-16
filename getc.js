@@ -1,7 +1,9 @@
 'use strict'
 
+var getc = require('rat-vec/getc')
+
 module.exports = getComponent
 
 function getComponent(matrix, i, j) {
-  return require('rat-vec/getc')(matrix[i], j)
+  return getc(matrix[i], j)
 }
