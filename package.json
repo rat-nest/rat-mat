@@ -1,6 +1,6 @@
 {
   "name": "rat-mat",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Exact rational matrix arithmetic",
   "main": "index.js",
   "scripts": {
@@ -18,7 +18,10 @@
     "computational",
     "geometry"
   ],
-  "author": "Mikola Lysenko",
+  "authors": [
+    "Mikola Lysenko",
+    "Elijah Insua"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/rat-nest/rat-mat/issues"
