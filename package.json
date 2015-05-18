@@ -26,5 +26,8 @@
   "dependencies": {
     "rat-vec": "^1.0.0"
   },
-  "homepage": "https://github.com/rat-nest/rat-mat"
+  "homepage": "https://github.com/rat-nest/rat-mat",
+  "devDependencies": {
+    "tape": "^4.0.0"
+  }
 }
