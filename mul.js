@@ -1,16 +1,26 @@
 'use strict'
 
-var rv = require('rat-vec')
+var vec = require('rat-vec')
 var dot = require('rat-vec/dot')
 var transpose = require('./transpose')
 
 module.exports = mmul
 
+function toMat(m) {
+  if(isMat(m)) {
+    return m
+  }
+  if(isVec(m)) {
+    return [m]
+  }
+  return
+}
+
 function mmul(a, b) {
-  var bt = tanspose(b)
-  return a.map(function(row) {
-    return rv(bt.map(function(col) {
-      return dot(row, col)
-    }))
-  })
+  if(!isMat(a)) {
+    if(isVec(a)) {
+      a =
+    } else {
+    }
+  }
 }

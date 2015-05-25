@@ -11,9 +11,9 @@ function eye(n) {
   }
   var result = new Array(n)
   for(var i=0; i<n; ++i) {
-    var r = row.slice()
-    r[i] = 1
-    result[i] = rv(r)
+    row[i] = 1
+    result[i] = rv(row)
+    row[i] = 0
   }
   return result
 }
