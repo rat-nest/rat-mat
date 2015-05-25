@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "big-rat": "^1.0.1",
-    "rat-vec": "^1.0.0"
+    "rat-vec": "^1.1.0"
   },
   "homepage": "https://github.com/rat-nest/rat-mat",
   "devDependencies": {
