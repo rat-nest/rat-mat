@@ -27,6 +27,7 @@
     "url": "https://github.com/rat-nest/rat-mat/issues"
   },
   "dependencies": {
+    "big-rat": "^1.0.1",
     "rat-vec": "^1.0.0"
   },
   "homepage": "https://github.com/rat-nest/rat-mat",
