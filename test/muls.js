@@ -3,8 +3,8 @@
 var tape = require('tape')
 var mat = require('../index')
 var equals = require('../equals')
-var mul = require('../mul')
+var muls = require('../muls')
 
-tape('matrix scalar multiplication', function(t) {
+tape('matrix scalar multiplcation', function(t) {
   t.end()
 })
